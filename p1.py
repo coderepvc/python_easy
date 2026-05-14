@@ -7,3 +7,4 @@ print(x)
 #get input and show the type
 name = input('Enter any: ')
 print('Type of input value - ',type(name))
+print('All inout values are strings')
