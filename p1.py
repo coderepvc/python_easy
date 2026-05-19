@@ -8,3 +8,11 @@ print(x)
 name = input('Enter any: ')
 print('Type of input value - ',type(name))
 print('All inout values are strings')
+
+# is it a Valid input
+A = input("Enter name in small:")
+
+if 1<= len(A) <= 15 and A.islower():
+	print("Hello"+A)
+else:
+	print("Invalid input")
